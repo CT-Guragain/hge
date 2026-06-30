@@ -96,6 +96,15 @@ section a:hover {
     background-color: #f8f9fa;
     border-left: 3px solid #63b3ed;
     border-radius: 4px;
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease,
+                background-color 0.3s ease;
+}
+
+.step:hover {
+    background-color: #eef7ff;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
 .step h3 {
@@ -117,6 +126,13 @@ section a:hover {
     margin-top: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+}
+.step img {
+    transition: transform 0.3s ease;
+}
+
+.step img:hover {
+    transform: scale(1.03);
 }
 
 /* ---- contact form ---- */
